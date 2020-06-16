@@ -73,10 +73,12 @@
 			<artifactId>validation-api</artifactId>
 			<version>${javax.validation.version}</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>${hibernate.validator.version}</version>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-validator</artifactId>
+		    <version>5.3.4.Final</version>
 		</dependency>
+
 	</dependencies>
 </project>
